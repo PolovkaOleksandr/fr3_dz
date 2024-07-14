@@ -1,0 +1,20 @@
+.img-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px; /* add some space between images */
+}
+
+.load {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.load[src] {
+    opacity: 1;
+}
